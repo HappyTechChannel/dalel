@@ -1,15 +1,14 @@
-
 import 'package:dalel/core/utils/app_colors.dart';
 import 'package:flutter/material.dart';
 
-class CustomChechBox extends StatefulWidget {
-  const CustomChechBox({super.key});
+class CustomCheckBox extends StatefulWidget {
+  const CustomCheckBox({super.key});
 
   @override
-  State<CustomChechBox> createState() => _CustomChechBoxState();
+  State<CustomCheckBox> createState() => _CustomCheckBoxState();
 }
 
-class _CustomChechBoxState extends State<CustomChechBox> {
+class _CustomCheckBoxState extends State<CustomCheckBox> {
   bool? value = false;
   @override
   Widget build(BuildContext context) {

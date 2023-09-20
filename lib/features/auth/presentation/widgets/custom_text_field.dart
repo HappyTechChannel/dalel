@@ -12,7 +12,7 @@ class CustomTextField extends StatelessWidget {
       child: TextField(
         decoration: InputDecoration(
           labelText: labelText,
-          labelStyle: CustomTextStyles.pacifico500style18,
+          labelStyle: CustomTextStyles.poppins500style18,
           border: getBorderStyle(),
           enabledBorder: getBorderStyle(),
           focusedBorder: getBorderStyle(),
