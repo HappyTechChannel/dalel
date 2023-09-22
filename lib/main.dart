@@ -10,7 +10,7 @@ void main() async {
   await getIt<CacheHelper>().init();
   runApp(const Dalel());
 }
-
+//MVVM => Model View Model_View
 class Dalel extends StatelessWidget {
   const Dalel({super.key});
 
