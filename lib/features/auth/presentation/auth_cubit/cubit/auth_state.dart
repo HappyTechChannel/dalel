@@ -12,6 +12,16 @@ final class SignupFailureState extends AuthState {
   SignupFailureState({required this.errMessage});
 }
 
+final class SigninLoadingState extends AuthState {}
+
+final class SigninSuccessState extends AuthState {}
+
+final class SigninFailureState extends AuthState {
+  final String errMessage;
+
+  SigninFailureState({required this.errMessage});
+}
+
 final class TermsAndConditionUpdateState extends AuthState {}
 
 final class ObscurePasswordTextUpdateState extends AuthState {}
