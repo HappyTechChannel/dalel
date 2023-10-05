@@ -33,7 +33,7 @@ class AuthCubit extends Cubit<AuthState> {
       } else if (e.code == 'invalid-email') {
         emit(SignupFailureState(errMessage: 'The email is invalid.'));
       } else {
-        emit(SigninFailureState(errMessage: e.code));
+        emit(SignupFailureState(errMessage: e.code));
       }
     } catch (e) {
       emit(SignupFailureState(errMessage: e.toString()));
