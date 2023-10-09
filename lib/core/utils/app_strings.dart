@@ -17,9 +17,9 @@ abstract class AppStrings {
       iHaveAgreeToOur = "I have agree to our ",
       termsAndCondition = "Terms and Condition",
       signUp = "Sign Up",
-      signIn = " Sign In",
-      alreadyHaveAnAccount = "Already have an account ?",
-      dontHaveAnAccount = "Don’t have an account ?",
+      signIn = "Sign In",
+      alreadyHaveAnAccount = "Already have an account ? ",
+      dontHaveAnAccount = "Don’t have an account ? ",
       forgotPassword = "Forgot Password ?",
       //!Home Strings
       recommendations = "Recommendations",
