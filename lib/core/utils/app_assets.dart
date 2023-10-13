@@ -5,6 +5,14 @@ class Assets {
   /// assets/images/forgotPassword.png
   static const String imagesForgotPassword = "assets/images/forgotPassword.png";
 
+  /// Assets for imagesHomeIcon
+  /// assets/images/home-icon.svg
+  static const String imagesHomeIcon = "assets/images/home-icon.svg";
+
+  /// Assets for imagesHomeIconActive
+  /// assets/images/home-icon-active.svg
+  static const String imagesHomeIconActive = "assets/images/home-icon-active.svg";
+
   /// Assets for imagesOnBoarding
   /// assets/images/onBoarding.png
   static const String imagesOnBoarding = "assets/images/onBoarding.png";
@@ -16,6 +24,30 @@ class Assets {
   /// Assets for imagesOnBoarding2
   /// assets/images/onBoarding2.png
   static const String imagesOnBoarding2 = "assets/images/onBoarding2.png";
+
+  /// Assets for imagesPerson
+  /// assets/images/person.svg
+  static const String imagesPerson = "assets/images/person.svg";
+
+  /// Assets for imagesPersonActive
+  /// assets/images/person-active.svg
+  static const String imagesPersonActive = "assets/images/person-active.svg";
+
+  /// Assets for imagesSearch
+  /// assets/images/search.svg
+  static const String imagesSearch = "assets/images/search.svg";
+
+  /// Assets for imagesSearchActive
+  /// assets/images/search-active.svg
+  static const String imagesSearchActive = "assets/images/search-active.svg";
+
+  /// Assets for imagesShoppingCart
+  /// assets/images/shopping-cart.svg
+  static const String imagesShoppingCart = "assets/images/shopping-cart.svg";
+
+  /// Assets for imagesShoppingCartActive
+  /// assets/images/shopping-cart-active.svg
+  static const String imagesShoppingCartActive = "assets/images/shopping-cart-active.svg";
 
   /// Assets for imagesSucccesOrder
   /// assets/images/succcesOrder.png
