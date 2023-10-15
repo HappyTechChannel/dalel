@@ -40,6 +40,7 @@ abstract class AppStrings {
       logOut = "Log Out",
       //!Bazar
       bazar = "Bazar",
+      historicalPeriods = "Historical periods",
       historyBooks = "History Books",
       historicalSouvenirs = "Historical Souvenirs",
       //!Cart

@@ -5,6 +5,14 @@ class Assets {
   /// assets/images/forgotPassword.png
   static const String imagesForgotPassword = "assets/images/forgotPassword.png";
 
+  /// Assets for imagesFrame
+  /// assets/images/Frame.png
+  static const String imagesFrame = "assets/images/Frame.png";
+
+  /// Assets for imagesFrame2
+  /// assets/images/Frame2.png
+  static const String imagesFrame2 = "assets/images/Frame2.png";
+
   /// Assets for imagesHomeIcon
   /// assets/images/home-icon.svg
   static const String imagesHomeIcon = "assets/images/home-icon.svg";
@@ -12,6 +20,10 @@ class Assets {
   /// Assets for imagesHomeIconActive
   /// assets/images/home-icon-active.svg
   static const String imagesHomeIconActive = "assets/images/home-icon-active.svg";
+
+  /// Assets for imagesMenu
+  /// assets/images/menu.svg
+  static const String imagesMenu = "assets/images/menu.svg";
 
   /// Assets for imagesOnBoarding
   /// assets/images/onBoarding.png
