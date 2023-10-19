@@ -41,6 +41,7 @@ abstract class AppStrings {
       //!Bazar
       bazar = "Bazar",
       historicalPeriods = "Historical periods",
+      historicalCharacters = "Historical Characters",
       historyBooks = "History Books",
       historicalSouvenirs = "Historical Souvenirs",
       //!Cart
