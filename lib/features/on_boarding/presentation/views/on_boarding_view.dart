@@ -28,7 +28,7 @@ class _OnBoardingViewState extends State<OnBoardingView> {
               CustomNavBar(
                 onTap: () {
                   onBoardingVisited();
-                  customReplacementNavigate(context, "/signUp");
+                  customReplacementNavigate(context, "/signIn");
                 },
               ),
               OnBoardingWidgetBody(
