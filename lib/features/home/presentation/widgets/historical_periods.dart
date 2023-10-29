@@ -37,6 +37,7 @@ class HistoricalPeriods extends StatelessWidget {
                 separatorBuilder: (context, index) {
                   return const SizedBox(width: 10);
                 },
+                clipBehavior: Clip.none,
                 itemCount: snapshot.data!.docs.length,
                 itemBuilder: (context, index) {
                   return HistoricalPeriodItem(model: historicalPeriods[index]);
