@@ -26,7 +26,7 @@ class HistoricalPeriodItem extends StatelessWidget {
           const SizedBox(width: 15),
           SizedBox(
             height: 48,
-            width: 62,
+            width: 65,
             child: Text(
               model.name,
               overflow: TextOverflow.ellipsis,
