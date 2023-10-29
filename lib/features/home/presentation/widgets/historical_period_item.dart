@@ -26,7 +26,7 @@ class HistoricalPeriodItem extends StatelessWidget {
           const SizedBox(width: 15),
           SizedBox(
             height: 48,
-            width: 62,
+            width: 65,
             child: Text(
               model.name,
               overflow: TextOverflow.ellipsis,
@@ -40,12 +40,12 @@ class HistoricalPeriodItem extends StatelessWidget {
             height: 64,
             width: 47,
             decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(8),
               image: DecorationImage(
-                image: NetworkImage(model.image),
-              ),
+                  image: NetworkImage(model.image), fit: BoxFit.fill),
             ),
           ),
-          const SizedBox(width: 16),
+          const SizedBox(width: 15),
         ],
       ),
     );
