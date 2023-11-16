@@ -1,13 +1,13 @@
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:dalel/core/models/data_model.dart';
 import 'package:dalel/core/utils/app_colors.dart';
 import 'package:dalel/core/utils/app_text_styles.dart';
-import 'package:dalel/features/home/data/models/historical_periods_model.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 
-class HistoricalPeriodItem extends StatelessWidget {
-  const HistoricalPeriodItem({super.key, required this.model});
-  final HistoricalPeriodsModel model;
+class CustomDataListViewItem extends StatelessWidget {
+  const CustomDataListViewItem({super.key, required this.model});
+  final DataModel model;
   @override
   Widget build(BuildContext context) {
     return Container(
