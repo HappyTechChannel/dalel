@@ -6,8 +6,10 @@ class CustomDataListView extends StatelessWidget {
   const CustomDataListView({
     super.key,
     required this.dataList,
+    required this.routePath,
   });
   final List<DataModel> dataList;
+  final String routePath;
   @override
   Widget build(BuildContext context) {
     return SizedBox(
@@ -20,7 +22,10 @@ class CustomDataListView extends StatelessWidget {
         clipBehavior: Clip.none,
         itemCount: dataList.length,
         itemBuilder: (context, index) {
-          return CustomDataListViewItem(model: dataList[index]);
+          return CustomDataListViewItem(
+            model: dataList[index],
+            routePath:routePath,
+          );
         },
       ),
     );

@@ -23,7 +23,7 @@ abstract class AppStrings {
       forgotPassword = "Forgot Password ?",
       //!Home Strings
       recommendations = "Recommendations",
-      aboutAncientEgypt = "About Ancient Egypt",
+      about = "About",
       ancientEgyptWars = "Ancient Egypt Wars",
       //!Search Strings
       searchDeepIntoTheHistory = "Search deep into the history",
