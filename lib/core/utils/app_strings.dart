@@ -24,7 +24,7 @@ abstract class AppStrings {
       //!Home Strings
       recommendations = "Recommendations",
       about = "About",
-      ancientEgyptWars = "Ancient Egypt Wars",
+      wars = "Wars",
       //!Search Strings
       searchDeepIntoTheHistory = "Search deep into the history",
       recent = "Recent",

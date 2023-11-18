@@ -2,6 +2,7 @@ import 'package:dalel/features/home/presentation/widgets/home_sections/historica
 import 'package:dalel/features/home/presentation/widgets/home_sections/historical_periods_section.dart';
 import 'package:dalel/features/home/presentation/widgets/home_sections/historical_souvenirs_section.dart';
 import 'package:dalel/features/home/presentation/widgets/home_sections/home_app_bar_section.dart';
+import 'package:dalel/features/home/presentation/widgets/trending_section.dart';
 import 'package:flutter/material.dart';
 
 class HomeView extends StatelessWidget {
@@ -23,6 +24,8 @@ class HomeView extends StatelessWidget {
             SliverToBoxAdapter(child: HistoricalCharactersSection()),
             //!Historical Souvenirs
             SliverToBoxAdapter(child: HistoricalSouvenirsSection()),
+            //! Trending Section
+            SliverToBoxAdapter(child: TrendingSection()),
           ],
         ),
       ),

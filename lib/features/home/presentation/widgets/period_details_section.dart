@@ -42,7 +42,7 @@ class PeriodDetailsSection extends StatelessWidget {
                       description,
                       maxLines: 10,
                       overflow: TextOverflow.ellipsis,
-                      style: CustomTextStyles.poppins500style14
+                      style: CustomTextStyles.poppins500style18
                           .copyWith(color: AppColors.black),
                     )),
               ],

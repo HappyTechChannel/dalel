@@ -1,10 +1,9 @@
-import 'package:dalel/core/utils/app_strings.dart';
-import 'package:dalel/core/widgets/custom_header_text.dart';
 import 'package:dalel/features/home/data/models/historical_periods_model.dart';
-import 'package:dalel/features/home/presentation/widgets/custom_category_list_view.dart';
 import 'package:dalel/features/home/presentation/widgets/home_sections/home_app_bar_section.dart';
 import 'package:dalel/features/home/presentation/widgets/period_details_section.dart';
 import 'package:dalel/features/home/presentation/widgets/period_wars_section.dart';
+import 'package:dalel/features/home/presentation/widgets/recommendation_section.dart';
+import 'package:dalel/features/home/presentation/widgets/trending_section.dart';
 import 'package:flutter/material.dart';
 
 class HistoricalPeriodsDetailsView extends StatelessWidget {
@@ -30,26 +29,12 @@ class HistoricalPeriodsDetailsView extends StatelessWidget {
               child: PeriodWarsSection(
             warsList: model.wars,
           )),
-          const SliverToBoxAdapter(child: RecommendationsSection()),
+           SliverToBoxAdapter(child: RecommendationsSection(name: model.name,)),
+          const SliverToBoxAdapter(child: TrendingSection()),
         ],
       ),
     ));
   }
 }
 
-class RecommendationsSection extends StatelessWidget {
-  const RecommendationsSection({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return const Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        CustomHeaderText(text: AppStrings.historicalPeriods),
-        SizedBox(height: 16),
-        CustomCategoryListView(),
-        SizedBox(height: 32),
-      ],
-    );
-  }
-}

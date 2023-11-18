@@ -15,7 +15,7 @@ class CustomDataListViewItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        customNavigate(context, routePath,extra: model);
+        customNavigate(context, routePath, extra: model);
       },
       child: Container(
         decoration: BoxDecoration(
@@ -38,11 +38,13 @@ class CustomDataListViewItem extends StatelessWidget {
               width: 65,
               child: Text(
                 model.name,
+                textAlign: TextAlign.left,
                 overflow: TextOverflow.ellipsis,
                 maxLines: 2,
-                textAlign: TextAlign.center,
-                style: CustomTextStyles.poppins500style18
-                    .copyWith(fontSize: 16, color: AppColors.deepBrown),
+                style: CustomTextStyles.poppins500style18.copyWith(
+                  fontSize: 16,
+                  color: AppColors.deepBrown,
+                ),
               ),
             ),
             SizedBox(
